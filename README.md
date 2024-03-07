@@ -18,3 +18,7 @@ It's recommended that you have a basic understanding of Git. Check the links bel
 ## Usage
 
 After installing the plugin, you'll find a new "Sync" button in Obsidian. Simply press this button to sync your vault with the remote Git repository.
+
+## Attribution
+
+Cicada-Sync is adapted from the Yaos library by Mahyar Mirrashed [link](https://github.com/mahyarmirrashed/yaos/).
