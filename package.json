@@ -1,8 +1,9 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "cicada-sync-plugin",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "A community plugin for Obsidian Synchronizer and team collaboration",
 	"main": "main.js",
+	"repository": "git@github.com:adapole/cicada-sync.git",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
@@ -20,5 +21,10 @@
 		"obsidian": "latest",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"consola": "^3.2.2",
+		"dayjs": "^1.11.9",
+		"simple-git": "^3.19.1"
 	}
 }

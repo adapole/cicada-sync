@@ -6,3 +6,10 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+.sync-title {
+	margin-top: 0;
+}
+
+.sync-conflicting-files {
+	margin-top: 0;
+}
