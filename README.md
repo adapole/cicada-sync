@@ -1,4 +1,4 @@
-# CICADA-SYNC:arrows_clockwise:
+# CICADA-SYNC
 
 > **NOTE:** This is a continued work form YAOS, which focus on team collaboration and syncronize.
 

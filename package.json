@@ -1,6 +1,6 @@
 {
 	"name": "cicada-sync-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A community plugin for Obsidian Synchronizer and team collaboration",
 	"main": "main.js",
 	"repository": "git@github.com:adapole/cicada-sync.git",
