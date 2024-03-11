@@ -64,16 +64,16 @@ export default class YaosSettingTab extends PluginSettingTab {
 		this.addGitSetup(containerEl);
 	}
 
-	private addGeneralSection(el: HTMLElement) {
-		el.createEl("h2", { text: "General" });
-		this.addDeviceNameSetting(el);
-		this.addCreateIssueSetting(el);
+	private addGeneralSection(containerEl: HTMLElement) {
+		new Setting(containerEl).setName("General").setHeading();
+		this.addDeviceNameSetting(containerEl);
+		this.addCreateIssueSetting(containerEl);
 	}
 
-	private addGitSetup(el: HTMLElement) {
-		el.createEl("h2", { text: "Setup Git" });
-		this.addBranchName(el);
-		this.addRemoteRepoURL(el);
+	private addGitSetup(containerEl: HTMLElement) {
+		new Setting(containerEl).setName("Setup Git").setHeading();
+		this.addBranchName(containerEl);
+		this.addRemoteRepoURL(containerEl);
 	}
 
 	private addDeviceNameSetting(el: HTMLElement) {
